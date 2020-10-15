@@ -1,4 +1,52 @@
-﻿body {
-    background-color: white
+﻿/* this is body css */
+body {
+    background-color: rgb(255, 255, 255);
+    color:  rgb(0, 0, 0);
+    font-family: -apple-system, system-ui, BlinkMacSystemFont;
 }
 
+#element1 {display:inline-block;margin-right:10px;} 
+#element2 {display:inline-block;} 
+
+#workmode {   
+    position: fixed; 
+    top: 95%;
+    left: 80%;
+     /* transform: translate(-70%, -70%); */
+}
+
+center.signinborder{
+
+    border-style: solid;
+    padding: 25px 40px 25px 40px;
+    position: fixed; 
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* this is footer css */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(0, 0, 0);
+    text-align: center;
+   
+ }
+
+ /* .l-submit {
+
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 177, 44);
+  
+  } */
+
+.work-mode { 
+
+  background-color: rgb(0, 0, 0);
+  color: rgb(0, 177, 44);
+
+}
