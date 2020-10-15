@@ -1,3 +1,9 @@
 ﻿body {
-    background-color:aquamarine
+    background-color: white
+}
+
+.work-mode {
+    background-image: assets/bitch.jpg;
+    background-color: black;
+    color: white;
 }
