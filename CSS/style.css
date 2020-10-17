@@ -12,18 +12,24 @@ body {
     position: fixed; 
     top: 95%;
     left: 80%;
+    z-index: 999;
      /* transform: translate(-70%, -70%); */
 }
 
-center.signinborder{
+div.signinborder{
 
-    border-style: solid;
     padding: 25px 40px 25px 40px;
-    position: fixed; 
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+    position: relative;
+width: 20%;
+    margin: 0px auto;
+    text-align:center;
+    margin-top:20em;
+   }
+
+   .border
+   {
+       border-style:solid;
+   }
 
 /* this is footer css */
 .footer {
@@ -34,8 +40,10 @@ center.signinborder{
     background-color: rgba(0, 0, 0, 0);
     color: rgb(0, 0, 0);
     text-align: center;
-   
+  
  }
+
+  
 
 
 .work-mode { 
@@ -43,4 +51,23 @@ center.signinborder{
   background-color: rgb(0, 0, 0);
   color: rgb(0, 177, 44);
 
+}
+
+#workmode,.btn-login
+{
+padding:5px 20px 5px 20px;
+width: auto;
+color: #fff;
+cursor: pointer;
+border:none;
+border-radius: 4px;
+/* //border-bottom: 4px solid #34ef60; */
+background-color: #2ecc71;
+margin-bottom: 20px;
+
+}
+
+.footer-black
+{
+    color: green !important;
 }

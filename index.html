@@ -5,29 +5,45 @@
 
     <meta charset="utf-8" />
     <title>Reward Khe</title>
-    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" A href="/CSS/style.css">
     <script src="script.js"></script>
-
 </head>
-
 <body>
-
-<center class="signinborder"> 
+<div class="signinborder border"> 
+    <form>
     <h1>  Sign in </h1> 
     <div id="element1">  <h4> Username:</h4> </div>
+   
     <div id="element2">  <input type="text" id="fname" name="fname"> </div>
     <br> 
     <div id="element1"> <h4> Password:</h4> </div>
-    <input type="text" id="fname" name="fname"><br>
-    <button id="submit" onclick="lsubmit()" >Submit</button> <br> <br>
+    <input type="password" id="fpwd" name="pwd"><br>
+    <input type="button" name="submit" value="LOGIN" class="btn-login" onclick="validate()"> <br>
     
-</center>
+</form>
+</div>
 <button id="workmode" onclick="nightmode()"> Work mode</button>
- 
 
-<div  class="footer">
+<div  id="footer" class="footer">
     <p> Copyright © 2020 rewardx. All rights reserved.</p>
   </div>
   
+  <script type="text/javascript">
+    function validate()
+    {
+    if(document.getElementById("fname").value=="admin" &&
+    document.getElementById("fpwd").value=="admin")
+    {
+    
+    window.location='homepage.html';
+    return false;
+    }
+    else
+    {
+    alert("Invalid Credentials, try again.");
+    location.href="index.html";
+    }
+    }
+    </script>
 </body>
 </html>
