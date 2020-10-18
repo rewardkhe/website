@@ -1,35 +1,45 @@
 ﻿/* this is body css */
 body {
     background-color: rgb(255, 255, 255);
-    color:  rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
     font-family: -apple-system, system-ui, BlinkMacSystemFont;
+
+
+    background: url(../Assets/bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+
 }
 
-#element1 {display:inline-block;margin-right:10px;} 
-#element2 {display:inline-block;} 
+#element1 {
+    display: inline-block;
+    margin-right: 10px;
+}
 
-#workmode {   
-    position: fixed; 
+#element2 {
+    display: inline-block;
+}
+
+#workmode {
+    position: fixed;
     top: 95%;
     left: 80%;
     z-index: 999;
-     /* transform: translate(-70%, -70%); */
+    /* transform: translate(-70%, -70%); */
 }
 
-div.signinborder{
+div.signinborder {
 
     padding: 25px 40px 25px 40px;
     position: relative;
-width: 20%;
+    width: 20%;
     margin: 0px auto;
-    text-align:center;
-    margin-top:20em;
-   }
+    text-align: center;
+    margin-top: 20em;
+}
 
-   .border
-   {
-       border-style:solid;
-   }
+.border {
+    border-style: solid;
+}
 
 /* this is footer css */
 .footer {
@@ -40,34 +50,55 @@ width: 20%;
     background-color: rgba(0, 0, 0, 0);
     color: rgb(0, 0, 0);
     text-align: center;
-  
- }
-
-  
-
-
-.work-mode { 
-
-  background-color: rgb(0, 0, 0);
-  color: rgb(0, 177, 44);
 
 }
 
-#workmode,.btn-login
-{
-padding:5px 20px 5px 20px;
-width: auto;
-color: #fff;
-cursor: pointer;
-border:none;
-border-radius: 4px;
-/* //border-bottom: 4px solid #34ef60; */
-background-color: #2ecc71;
-margin-bottom: 20px;
+
+
+
+.work-mode {
+
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 177, 44);
+    background: url(../Assets/wmbg.png) no-repeat center center fixed;
+    background-size: cover;
+
+
 
 }
 
-.footer-black
-{
+#workmode {
+    padding: 5px 20px 5px 20px;
+    width: auto;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    /* //border-bottom: 4px solid #34ef60; */
+    background-color: #2ecc71;
+    margin-bottom: 20px;
+
+ 
+
+
+}
+
+.btn-login {
+    padding: 5px 20px 5px 20px;
+    width: auto;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    /* //border-bottom: 4px solid #34ef60; */
+    background-color: #2ecc71;
+    margin-bottom: 20px;
+
+
+}
+
+#footer-black {
+
     color: green !important;
+
 }
