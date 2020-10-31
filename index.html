@@ -40,15 +40,14 @@
 
     <script type="text/javascript">
         function validate() {
-            if (document.getElementById("fname").value == "admin" && document.getElementById("fpwd").value == "admin") 
+            if (document.getElementById("fname").value == "admin" && 
+            document.getElementById("fpwd").value == "admin") 
            
             {
                 window.location = 'homepage.html';
                 return false;
             } else {
-                <div class="alert alert-success">
-                <strong>Success!</strong> Indicates a successful or positive action.
-                </div>
+              
                
                 alert("Invalid Credentials, try again.");
                 location.href = "index.html";
