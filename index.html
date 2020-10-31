@@ -40,9 +40,9 @@
 
     <script type="text/javascript">
         function validate() {
-            if (document.getElementById("fname").value == "" &&
-                document.getElementById("fpwd").value == "") {
-
+            if (document.getElementById("fname").value == "admin" && document.getElementById("fpwd").value == "admin") 
+           
+            {
                 window.location = 'homepage.html';
                 return false;
             } else {
@@ -50,8 +50,8 @@
                 <strong>Success!</strong> Indicates a successful or positive action.
                 </div>
                
-                // alert("Invalid Credentials, try again.");
-                // location.href = "index.html";
+                alert("Invalid Credentials, try again.");
+                location.href = "index.html";
             }
         }
     </script>
