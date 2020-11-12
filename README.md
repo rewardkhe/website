@@ -1,2 +1,2 @@
 # website
-this repo showcases all the work done in my personal website www.rewardkhe.com
+this repo showcases the website www.rewardkhe.com
