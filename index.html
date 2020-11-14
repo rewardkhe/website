@@ -12,21 +12,17 @@
 
 <body>
 
+    
     <div class="signinborder border">
         <form>
-            <h1> Sign in </h1>
-            <div id="element1">
-                <h4> Username:</h4>
-            </div>
-
-            <div id="element2"> <input type="text" id="fname" name="fname"> </div>
+                  
             <br>
             <div id="element1">
-                <h4> Password:</h4>
+                <h4> Code:</h4>
             </div>
             <input type="password" id="fpwd" name="pwd"><br>
 
-            <input type="button" name="submit" value="LOGIN" class="btn-login" onclick="validate()"> <br>
+            <input type="button" name="submit" value="Enter" class="btn-login" onclick="validate()"> <br>
 
         </form>
     </div>
@@ -34,17 +30,17 @@
 
     <footer>
     <div id="footer" class="footer">
+
          Copyright © 2020 rewardx. All rights reserved.
     </div>
     </footer>
 
     <script type="text/javascript">
         function validate() {
-            if (document.getElementById("fname").value == "admin" && 
-            document.getElementById("fpwd").value == "admin") 
+            if (document.getElementById("fpwd").value == "admin") 
            
             {
-                window.location = "homepage.html";
+                window.location = "home.html";
                 return false;
             } 
             else 
