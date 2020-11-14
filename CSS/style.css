@@ -1,23 +1,19 @@
 ﻿/* this is body css */
 *{
-    cursor: cell;
+    cursor: cell; 
+    
 }
 
 body {
     background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    font-family: -apple-system, system-ui, BlinkMacSystemFont;
-
-
-    background: url(../Assets/bg.jpg) no-repeat center center fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(90deg, rgb(31, 71, 69), rgb(57, 24, 100));
     background-size: cover;
-    /* cursor commented in body tag due to limited reach */
-    /* cursor: crosshair; */
-    /* cursor: url(../Assets/Zune/Alternate.cur) ; */
 
-    overflow: hidden;
+    /* overflow: hidden; */
     min-width: 100%;
     margin:0; padding:0;
+    cursor: cell;
 }
 
 #element1 {
@@ -53,26 +49,26 @@ div.signinborder {
 
 /* this is footer css */
 .footer {
+    
+    color: rgb(201, 201, 201);
+    font-size: medium;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0);
     color: rgb(0, 0, 0);
     text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
 
 }
 
-
-
-
 .work-mode {
 
-    background-color: rgb(0, 0, 0);
-    color: rgb(0, 177, 44);
-    background: url(../Assets/wmbg.png) no-repeat center center fixed;
-    background-size: cover;
 
+    color: rgb(0, 0, 0);
+    background-image: linear-gradient(90deg, rgb(46, 48, 27), rgb(60, 107, 72));
 
 
 }
@@ -81,16 +77,11 @@ div.signinborder {
     padding: 5px 20px 5px 20px;
     width: auto;
     color: #fff;
-    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
     border: none;
     border-radius: 4px;
-    /* //border-bottom: 4px solid #34ef60; */
     background-color: #2ecc71;
     margin-bottom: 20px;
-
- 
-
-
 }
 
 .btn-login {
@@ -100,7 +91,6 @@ div.signinborder {
     cursor: pointer;
     border: none;
     border-radius: 4px;
-    /* //border-bottom: 4px solid #34ef60; */
     background-color: #2ecc71;
     margin-bottom: 20px;
 
