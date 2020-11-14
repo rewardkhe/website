@@ -1,6 +1,7 @@
 ﻿/* this is body css */
-
-#myFakeElement { color:red ; }
+*{
+    cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/sad.png") auto;
+}
 
 body {
     background-color: rgb(255, 255, 255);
@@ -10,8 +11,13 @@ body {
 
     background: url(../Assets/bg.jpg) no-repeat center center fixed;
     background-size: cover;
-    cursor: crosshair;
+    /* cursor commented in body tag due to limited reach */
+    /* cursor: crosshair; */
+    /* cursor: url(../Assets/Zune/Alternate.cur) ; */
 
+    overflow: hidden;
+    min-width: 100%;
+    margin:0; padding:0;
 }
 
 #element1 {
