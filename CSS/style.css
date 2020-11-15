@@ -140,3 +140,25 @@ div.signinborder {
     margin: 2px;
     padding: 2px;
 }
+
+/* LEC CSS */
+
+#calculator {
+
+color: lightcyan;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 40%;
+    margin: 5% 30%;
+  }
+  
+  td, th {
+      color: lightcyan;
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+  

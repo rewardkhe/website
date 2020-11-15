@@ -1,23 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Living Expenses Calculator</title>
-    <link rel="stylesheet" A href="../CSS/style.css">
-    <script src="../script.js"></script>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Living Expenses Calculator</title>
+        <link rel="stylesheet" A href="../CSS/style.css">
+        <script src="../script.js"></script>
+    </head>
 <body>
     
-    <div id="navbar"> 
-    <ul>
-        <li><a href="../home.html">Home</a></li>
-        <li><a href="../work.html">Work</a></li>
-        <li><a href="../about.html">About</a></li>
-    </ul>
-</div>
-<button id="workmode" onclick="nightmode()"> Work mode</button>
+        <div id="navbar"> 
+            <ul>
+                <li><a href="../home.html">Home</a></li>
+                <li><a href="../work.html">Work</a></li>
+                <li><a href="../about.html">About</a></li>
+            </ul>
+        </div>
+    <button id="workmode" onclick="nightmode()"> Work mode</button>
 
+    <div id="calculator"> 
+        <center> <h2> Living Expenses Calculator</h2> </center>
+
+        <table>
+            <tr>
+                <th>Expenditure</th>
+                <th>Amount</th>
+                <th>Frequency</th>
+                <th>Total</th>
+            </tr>
+            <tr>
+                <td>Rent</td>
+                <td><input type="number" id="total" name="Total" placeholder="$200"></td>
+                <td>  <select id="Frequency">
+                    <option value="weekly">Weekly</option>
+                    <option value="fortnightly">Fortnightly</option>
+                    <option value="monthly">Monthly</option>
+                    <option value="annually">Annually</option>
+                  </select></td>
+                <td><input type="text" id="total" name="Total" placeholder="$10,400"> </td>
+            </tr>
+            <tr>
+                <td> <button class="calulate">Calculate</button></td>
+            </tr>
+           
+            <tr>
+                <td> <button class="addmore">Add more</button></td>
+            </tr>
+        </table>
+    </div>
 
 </body>
 <footer>
