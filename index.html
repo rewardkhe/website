@@ -12,45 +12,32 @@
 
 <body>
 
-    
-    <div class="signinborder border">
-        <form>
-                  
-            <br>
-            <div id="element1">
-                <h4> Code:</h4>
-            </div>
-            <input type="password" id="fpwd" name="pwd"><br>
 
-            <input type="button" name="submit" value="Enter" class="btn-login" onclick="validate()"> <br>
+    <form name= "mainloginform"  action="index.php" form method="Post" >
 
-        </form>
-    </div>
+        <div class="loginformm">
+
+            <input type="text" name="logintext" placeholder="Enter Code" >
+            <button> Log in </button>
+
+        </div>
+
+
+    </form>
+
+   
+
+
+
     <button id="workmode" onclick="nightmode()"> Work mode</button>
 
     <footer>
-    <div id="footer" class="footer">
+    <div class="footer">
 
-         Copyright © 2020 rewardx. All rights reserved.
+         <!-- Copyright © 2020 rewardx. All rights reserved. -->
     </div>
     </footer>
 
-    <script type="text/javascript">
-        function validate() {
-            if (document.getElementById("fpwd").value == "admin") 
-           
-            {
-                window.location = "home.html";
-                return false;
-            } 
-            else 
-            {       
-                                     
-                alert("Invalid Credentials, try again.");
-                location.href = "index.html";
-            }
-        }
-    </script>
 </body>
 
 </html>

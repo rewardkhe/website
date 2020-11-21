@@ -27,17 +27,26 @@ li a:hover:not(.active) {
 
 }
 
+.loginformm{
+
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+
+}
 
 
 body {
     background-color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
     background-image: linear-gradient(90deg, rgb(31, 71, 69), rgb(57, 24, 100));
-    background-size: cover;
+    /* background-size: cover; */
 
-    /* overflow: hidden; */
-    min-width: 100%;
-    margin:0; padding:0;
+    overflow: hidden;
+    /* min-width: 100%; */
+
     
 }
 
@@ -70,7 +79,7 @@ div.signinborder {
 .footer {
     
     color: rgb(201, 201, 201);
-    background-color: lightslategrey;
+    background-color: rgba(88, 133, 177, 0.493);
     font-size:large ;
     position:absolute;
     text-align: center;
