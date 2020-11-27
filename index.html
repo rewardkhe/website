@@ -6,38 +6,37 @@
 
     <meta charset="utf-8" />
     <title>Reward Khe</title>
-    <link rel="stylesheet" A href="/CSS/style.css">
+    <link rel="stylesheet" href="CSS/style.css">
     <script src="script.js"></script>
 </head>
 
 <body>
 
 
-    <form name= "mainloginform"  action="index.php" form method="Post" >
+    <form name= "mainloginform" class="loginformm" action="index.php"
+    method="POST" >
 
-        <div class="loginformm">
+       
 
-            <input type="text" name="logintext" placeholder="Enter Code" >
+            <input type="text" name="logintext" placeholder="Enter Code"
+            required >
             <button> Log in </button>
 
-        </div>
-
-
+        
+        
     </form>
-
+        
+    <button id="workmode" onclick="nightmode()"> Work mode</button>
    
 
-
-
-    <button id="workmode" onclick="nightmode()"> Work mode</button>
-
-    <footer>
-    <div class="footer">
-
-         <!-- Copyright © 2020 rewardx. All rights reserved. -->
-    </div>
-    </footer>
+    
 
 </body>
+
+<footer>
+    <div class="footer">
+
+    </div>
+</footer>
 
 </html>
