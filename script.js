@@ -4,3 +4,5 @@ function nightmode() {
     element.classList.toggle("work-mode");
 
 }
+
+console.log('hello world')
