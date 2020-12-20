@@ -1,173 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
-li {
-    list-style-type: none;
-    display: inline-block;
-    margin: 0px;
-    padding: 0px;
+/*++++++++++++ html tags +++++++++ */
+p {
+  color: rgb(255, 255, 255);
+  text-indent: 0px;
+  text-transform: full-width;
+  font-size: 0.6em;
+}
+
+h3 {
+  color: white;
+  line-height: 30px;
+
+}
+
+ul{
+padding:0px;
+  /* margin: 0 auto; */
+}
+a {
+  text-decoration: none;
+  color: white;
+
+}
+
+/*------------ html tags------------ */
+
+.navbar {
+
+  background-color: rgb(46, 48, 27);
+  display: inline-flex;
+  align-content: space-around;
+  text-align: center;
+  justify-content: space-between;
+  width: 100%;
+  /* height: auto; */
+  margin: 0px;
+  padding: 0px;
+  /* vertical-align: center; */
+}
+
+
+
+#navlogo {
+
+  /* margin-top: 0.5em; */
+  /* padding: 20px 0; */
+}
+
+li{
+
+  list-style-type: none;
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
   
-  }
-  li a{
-    color: rgb(255, 255, 255);
-  
-    text-decoration: none;
-    padding: 14px 16px;
-    margin: 0px;
-   
-    
-  }
-  
-  li a:hover:not(.active) {
-    background-color: #69b16c65;
-  }
-  
-  
-  #navbar{
-    
-    background-color: rgb(46, 48, 27);
-    display: flex;
-    text-align: center;
-    display: inline-block;
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-  
-  }
-  
-  .loginformm{
-  
+  /* list-style: none;
+  display: inline-block; */
+
+}
+
+
+li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 14px 16px;
+  margin: 0px;
+  font-family: 'noto sans jp', Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+
+.navbar li a:hover {
+  background-color: rgba(204, 188, 46, 0.527);
+}
+
+
+
+.loginformm {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  
-  
-  }
-  
-  
-  body {
-    background-color: rgb(255, 255, 255);
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(90deg, rgb(31, 71, 69), rgb(57, 24, 100));
-    background-size: cover;
-  
-    /* overflow: hidden; */
-    min-width: 100%;
-    padding: 0px;
-    margin: 0px;
-    
-  }
-  
-  
-  
-  
-  div.signinborder {
-  
-    padding: 25px 40px 25px 40px;
-    position: relative;
-    width: 20%;
-    margin: 0px auto;
-    text-align: center;
-    margin-top: 20em;
-  }
-  
-  .border {
-    border-style: solid;
-  }
-  
-  /* this is footer css */
-  .footer {
-    
-    color: rgb(201, 201, 201);
-    background-color: rgba(88, 133, 177, 0.493);
-    /* font-size:large ; */
-    position:absolute;
-    text-align: center;
-    width: 100%;
-    line-height: 50px;
-    margin: 0px 0px 0px 0px;
-    bottom: 0;
-  
-  }
-  
-  #workmode {
-    position: absolute;
-    top: 85%;
-    left: 90%;
-    z-index: 999;
-  
-  }
-  
-  #logout {
-    position: absolute;
-    top: 80%;
-    left: 90%;
-    z-index: 999;
-  
-  }
-  
-  .work-mode {
-  
-  
-    color: rgb(0, 0, 0);
-    background-image: linear-gradient(90deg, rgb(46, 48, 27), rgb(60, 107, 72));
-  
-  
-  }
-  
-  #workmode {
-    padding: 5px 20px 5px 20px;
-    width: auto;
-    color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-    border: none;
-    border-radius: 4px;
-    background-color: #2ecc71;
-    margin-bottom: 20px;
-  }
-  
-  .btn-login {
-    padding: 5px 20px 5px 20px;
-    width: auto;
-    color: #fff;
-    cursor: pointer;
-    border: none;
-    border-radius: 4px;
-    background-color: #2ecc71;
-    margin-bottom: 20px;
-  
-  
-  }
-  
-  
-  
-  /* work post starts from here */
-  
-  #workpost {
-  
-    color: lavender;
-    margin: 2px;
-    padding: 5em 5px 5px 10px  ;
-  }
-  
-  /* LEC CSS */
-  
-  #calculator {
-  
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: 'Work Sans', sans-serif;
+  background-image: linear-gradient(90deg, rgb(31, 71, 69), rgb(57, 24, 100));
+  background-size: cover;
+  min-width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+/*++++++++++++ FOOTER CSS +++++++++ */
+footer {
+  color: rgb(201, 201, 201);
+  background-color: rgba(88, 133, 177, 0.493);
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  line-height: 50px;
+  margin: 0px 0px 0px 0px;
+  bottom: 0;
+}
+
+#workmode {
+  position: absolute;
+  top: 85%;
+  left: 90%;
+  z-index: 999;
+}
+
+#logout {
+  position: absolute;
+  top: 80%;
+  left: 90%;
+  z-index: 999;
+}
+
+.work-mode {
+  color: rgb(0, 0, 0);
+  background-image: linear-gradient(90deg, rgb(46, 48, 27), rgb(60, 107, 72));
+}
+
+#workmode {
+  padding: 5px 20px 5px 20px;
+  width: auto;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  border-radius: 4px;
+  background-color: #2ecc71;
+  margin-bottom: 20px;
+}
+
+.btn-login {
+  padding: 5px 20px 5px 20px;
+  width: auto;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background-color: #2ecc71;
+  margin-bottom: 20px;
+}
+
+/* work post starts from here */
+
+.workpost {
+  color: rgb(37, 25, 25);
+  margin: 2px;
+  padding: 15px 5px 5px 5px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  /* height: 35vh; */
+  align-self: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+.workpost>div {
+  /* color: white; */
+  width: 100%;
+  margin: 10px;
+  /* text-align: center; */
+  line-height: 25px;
+  font-size: 30px;
+}
+
+/* LEC CSS */
+
+#calculator {
   color: lightcyan;
-  }
-  
-  table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 40%;
-    margin: 5% 30%;
-  }
-  
-  td, th {
-      color: lightcyan;
-    border: 1px solid #dddddd;
-    text-align: center;
-    padding: 8px;
-  }
-  
-  
+  /* align-content: center; */
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 40%;
+  margin: 5% 30%;
+}
+
+td,
+th {
+  color: lightcyan;
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}

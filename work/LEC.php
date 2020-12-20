@@ -4,19 +4,23 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Living Expenses Calculator</title>
-        <link rel="stylesheet" href="../CSS/style.css">
+        <link rel="stylesheet" href="../CSS/style1.css">
         <script src="../script.js"></script>
     </head>
-<body>
-    
-        <div id="navbar"> 
-            <ul>
-                <li><a href="../home.html">Home</a></li>
-                <li><a href="../work.html">Work</a></li>
-                <li><a href="../about.html">About</a></li>
+    <body>
+        <div class="navbar"> 
+            <a id="navlogo" href="../home.php"><img src="../Assets/wflogo3.png" alt="Reward Khe"></a>
+            <ul> 
+                <li><a href="../home.php">Home</a></li>
+                <li><a href="../work.php">Work</a></li>
+                <li><a href="../about.php">About</a></li>
             </ul>
         </div>
-    <button id="workmode" onclick="nightmode()"> Work mode</button>
+
+        <button id="workmode" onclick="nightmode()"> Work mode</button>
+        <a href="index.html"> 
+        <button id="logout"> log out</button>
+        </a> 
 
     <div id="calculator"> 
         <center> <h2> Living Expenses Calculator</h2> </center>
@@ -50,13 +54,11 @@
             </tr>
         </table>
     </div>
+
+
     <a href="../index.html"> 
         <button id="logout" class="btn btn-primary" > log out</button>
     </a> 
 </body>
-<footer>
-    <div id="footer" class="footer">
-    Copyright © 2020 rewardx. All rights reserved.
-</div>
-</footer>
+<?php include '../footer.php';?>
 </html>

@@ -5,4 +5,3 @@ function nightmode() {
 
 }
 
-console.log('hello world')
