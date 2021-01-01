@@ -25,7 +25,7 @@
 
         <div style="flex-basis:25%">
 
-            <h3> <a target="_blank" href="work/LEC.php"> Living Expenses Calculator</h3> </a>
+            <h3> <a href="work/LEC.php"> Living Expenses Calculator</h3> </a>
             <p> Living expenses calculator is designed to caluclate one's expenses keeping the
                 idea of customisation in mind.
 
@@ -42,7 +42,7 @@
 
         <div id="post" style="flex-basis:70%">
 
-            <a target="_blank" href="work/LEC.php">
+            <a href="work/LEC.php">
                 <center> 
                     <img src="Assets/calculator.png" alt="calculator" width="auto" height="333"> 
                 </center>

@@ -9,6 +9,10 @@ p {
   font-size: 0.6em;
 }
 
+h2{
+  text-align: center;
+}
+
 h3 {
   color: white;
   line-height: 30px;
@@ -29,7 +33,7 @@ a {
 
 .navbar {
 
-  background-color: rgb(46, 48, 27);
+  background-color: rgb(236, 255, 68);
   display: inline-flex;
   align-content: space-around;
   text-align: center;
@@ -87,7 +91,7 @@ li a {
 body {
   background-color: rgb(255, 255, 255);
   font-family: 'Work Sans', sans-serif;
-  background-image: linear-gradient(90deg, rgb(31, 71, 69), rgb(57, 24, 100));
+  background-image: linear-gradient(90deg, rgb(94, 28, 248), rgb(71, 197, 255));
   background-size: cover;
   min-width: 100%;
   padding: 0px;
@@ -123,7 +127,7 @@ footer {
 
 .work-mode {
   color: rgb(0, 0, 0);
-  background-image: linear-gradient(90deg, rgb(46, 48, 27), rgb(60, 107, 72));
+  background-image: linear-gradient(90deg, rgb(56, 33, 33), rgb(38, 56, 42));
 }
 
 #workmode {

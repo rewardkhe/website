@@ -8,22 +8,10 @@
         <script src="../script.js"></script>
     </head>
     <body>
-        <div class="navbar"> 
-            <a id="navlogo" href="../home.php"><img src="../Assets/wflogo3.png" alt="Reward Khe"></a>
-            <ul> 
-                <li><a href="../home.php">Home</a></li>
-                <li><a href="../work.php">Work</a></li>
-                <li><a href="../about.php">About</a></li>
-            </ul>
-        </div>
-
-        <button id="workmode" onclick="nightmode()"> Work mode</button>
-        <a href="index.html"> 
-        <button id="logout"> log out</button>
-        </a> 
+    <?php include 'navbarr.php';?>
 
     <div id="calculator"> 
-        <center> <h2> Living Expenses Calculator</h2> </center>
+        <h2> Living Expenditure Calculator</h2> 
         <form action="lec.php" method="POST"></form>
         <table>
             <tr>
@@ -55,10 +43,9 @@
         </table>
     </div>
 
+    <?php include 'buttonss.php';?>
 
-    <a href="../index.html"> 
-        <button id="logout" class="btn btn-primary" > log out</button>
-    </a> 
+
 </body>
 <?php include '../footer.php';?>
 </html>

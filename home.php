@@ -25,7 +25,6 @@
 <?php include 'buttons.php';?>
 
 
-    
 
 </body>
 

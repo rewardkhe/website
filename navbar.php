@@ -4,5 +4,8 @@
                 <li><a href="home.php">Home</a></li>
                 <li><a href="work.php">Work</a></li>
                 <li><a href="about.php">About</a></li>
+                <audio id="beep" preload="auto">
+				<source src="Assets/sounds/hover.wav"></source>
+			    </audio>
             </ul>
         </div>
