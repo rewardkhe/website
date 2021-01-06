@@ -1,0 +1,3 @@
+01/05
+fixed the bg color of navbar
+added textbox for username for later session

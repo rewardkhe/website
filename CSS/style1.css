@@ -33,7 +33,7 @@ a {
 
 .navbar {
 
-  background-color: rgb(236, 255, 68);
+  background-color: rgba(46, 42, 42, 0.486);
   display: inline-flex;
   align-content: space-around;
   text-align: center;
@@ -76,7 +76,7 @@ li a {
 }
 
 .navbar li a:hover {
-  background-color: rgba(204, 188, 46, 0.527);
+  background-color: rgba(114, 174, 192, 0.527);
 }
 
 

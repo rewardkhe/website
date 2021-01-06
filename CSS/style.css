@@ -1,6 +1,3 @@
-
-
-
 :root {
   --input-color: #99A3BA;
   --input-border: #CDD9ED;
@@ -16,7 +13,7 @@
 }
 
 .form-field {
-  display: block;
+  display: inline-block;
   width: 100%;
   padding: 8px 16px;
   line-height: 25px;
@@ -144,7 +141,7 @@ html {
 
 body {
   min-height: 100vh;
-  font-family: 'Mukta Malar', Arial;
+  font-family:Helvetica, Arial;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

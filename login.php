@@ -1,8 +1,8 @@
 <?php
 
 $logintext = $_POST['logintext'];
-
-if ($logintext == "admin" )
+$loginid = $_POST['loginid'];
+if ($loginid == "$loginid" && $logintext == "password")
 {
  header('Location: home.php');
 }
