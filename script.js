@@ -1,4 +1,5 @@
-/* <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> */
+{/* <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>  */}
+
 
 function nightmode() {
     var element = document.body;
@@ -12,8 +13,9 @@ function playclick() {
 
 
 
+            
 var beepOne = $("#beep")[0];
-		$(".nav")
-	.mouseenter(function() {
-		beepOne.play();
-	});
+$("#navbar")
+.mouseover(function() {
+beepOne.play();
+});
