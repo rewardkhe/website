@@ -1,1 +1,1 @@
-<link rel="icon" type="image/png" href="Assets/favicon/favicon.png"/>
+<link rel="icon" type="image/png" href="Assets/favicon/brand.png"/>   
