@@ -1,7 +1,9 @@
-<!DOCTYPE html>
 <?php
   include_once ('header.php');
 ?>
+
+<!DOCTYPE html>
+
 <html>
 
 <head>
@@ -30,7 +32,7 @@
             <h3> <a href="work/LEC.php"> Living Expenses Calculator</h3> </a>
             <p> Living expenses calculator is designed to caluclate one's expenses keeping the
                 idea of customisation in mind.
-
+                <br>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis tempora nam eaque esse delectus ab
                 eum exercitationem ut consequatur. Veritatis quia accusamus porro possimus quidem eligendi incidunt ipsa
                 labore minima.

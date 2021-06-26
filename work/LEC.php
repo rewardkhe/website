@@ -13,7 +13,7 @@
     <?php include 'navbarr.php';?>
 
     <div id="calculator"> 
-        <h2> Living Expenditure Calculator</h2> 
+        <h2> Living Expenditure Calculator</h2>     
         <form action="lec.php" method="POST"></form>
         <table>
             <tr>

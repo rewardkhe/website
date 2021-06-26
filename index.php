@@ -34,15 +34,15 @@
 
 if (isset($_GET["error"])) {
      if ($_GET["error"] == "emptyinput") {  
-        echo "Wrong password";
+        echo "❌ Wrong password ❌";
       }
     }
    ?>
 
 
 
-<footer>
+<!-- <footer>
     © 2021 rewardkhe. All rights reserved.
-</footer>
+</footer> -->
 </body>
 </html>

@@ -91,9 +91,12 @@ li a {
 body {
   background-color: rgb(255, 255, 255);
   font-family: 'Work Sans', sans-serif;
-  background-image: linear-gradient(90deg, rgb(94, 28, 248), rgb(71, 197, 255));
-  background-size: cover;
-  min-width: 100%;
+  background-color:rgb(63, 90, 89);
+  /* background-image: linear-gradient(90deg, rgb(94, 28, 248), rgb(71, 197, 255)); */
+
+  background-size: 100vh, 100vw;
+  background-repeat: no-repeat;
+  /* min-width: 100%; */
   padding: 0px;
   margin: 0px;
 }
@@ -103,23 +106,23 @@ body {
 footer {
   color: rgb(201, 201, 201);
   background-color: rgba(88, 133, 177, 0.493);
-  position: absolute;
+  position: fixed;
   text-align: center;
-  width: 100%;
+  width: 100vw;
   line-height: 50px;
   margin: 0px 0px 0px 0px;
   bottom: 0;
 }
 
 #workmode {
-  position: absolute;
+  position: sticky;
   top: 85%;
   left: 90%;
   z-index: 999;
 }
 
 #logout {
-  position: absolute;
+  position: sticky;   
   top: 80%;
   left: 90%;
   z-index: 999;
@@ -180,15 +183,23 @@ footer {
 
 #calculator {
   color: lightcyan;
-  /* align-content: center; */
+
+  align-content: inherit;
 }
 
 table {
+  /* box-sizing: 50%; */
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 40%;
-  margin: 5% 30%;
+  font-size: 1em;
+  /* margin: 5% 30%; */
+  /* table-layout:inherit; */
+  /* width:100%; */
 }
+
+
+
+
 
 td,
 th {
@@ -197,3 +208,21 @@ th {
   text-align: center;
   padding: 8px;
 }
+
+
+/* 📱 Media queries */
+
+@media (min-width:600px){
+  .table{
+    font-size: 1vw;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    table-layout:inherit;
+    border-color: white;
+  }
+  td,th {
+  color: lightcyan;
+  /* border: 1px solid #dddddd; */
+  /* text-align: center; */
+  /* padding: 8px; */
+}}
