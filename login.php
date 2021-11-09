@@ -1,12 +1,15 @@
 <?php
 
-$logintext = $_POST['logintext'];
-$loginid = $_POST['loginid'];
-if ($loginid == "$loginid" && $logintext == "password")
+$value = $_POST['selected'];
+
+if ($value == "1")
 {
  header('Location: home.php');
+ 
 }
+
 else{
  header("location: index.php?error=emptyinput");
 }
+
 ?>

@@ -9,7 +9,7 @@ p {
   font-size: 0.6em;
 }
 
-h2{
+h2 {
   text-align: center;
 }
 
@@ -19,10 +19,11 @@ h3 {
 
 }
 
-ul{
-padding:0px;
+ul {
+  padding: 0px;
   /* margin: 0 auto; */
 }
+
 a {
   text-decoration: none;
   color: white;
@@ -49,17 +50,17 @@ a {
 
 #navlogo {
 
-  /* margin-top: 0.5em; */
+  margin-top: 0.5em;
   /* padding: 20px 0; */
 }
 
-li{
+li {
 
   list-style-type: none;
-  display: inline-block; 
+  display: inline-block;
   margin: 0px;
   padding: 0px;
-  
+
   /* list-style: none;
   display: inline-block; */
 
@@ -91,7 +92,7 @@ li a {
 body {
   background-color: rgb(255, 255, 255);
   font-family: 'Work Sans', sans-serif;
-  background-color:rgb(63, 90, 89);
+  background-color: rgb(63, 90, 89);
   /* background-image: linear-gradient(90deg, rgb(94, 28, 248), rgb(71, 197, 255)); */
 
   background-size: 100vh, 100vw;
@@ -115,14 +116,14 @@ footer {
 }
 
 #workmode {
-  position: sticky;
+  position: absolute;
   top: 85%;
   left: 90%;
   z-index: 999;
 }
 
 #logout {
-  position: sticky;   
+  position: sticky;
   top: 80%;
   left: 90%;
   z-index: 999;
@@ -131,6 +132,8 @@ footer {
 .work-mode {
   color: rgb(0, 0, 0);
   background-image: linear-gradient(90deg, rgb(56, 33, 33), rgb(38, 56, 42));
+  background-size: cover;
+
 }
 
 #workmode {
@@ -212,17 +215,33 @@ th {
 
 /* 📱 Media queries */
 
-@media (min-width:600px){
-  .table{
+@media (min-width:600px) {
+  .table {
     font-size: 1vw;
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    table-layout:inherit;
+    table-layout: inherit;
     border-color: white;
   }
-  td,th {
-  color: lightcyan;
-  /* border: 1px solid #dddddd; */
-  /* text-align: center; */
-  /* padding: 8px; */
-}}
+
+  td,
+  th {
+    color: lightcyan;
+    /* border: 1px solid #dddddd; */
+    /* text-align: center; */
+    /* padding: 8px; */
+  }
+
+  
+
+}
+
+.bg_music {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  z-index: 15;
+  top: 90%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+}

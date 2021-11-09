@@ -10,7 +10,7 @@
 <head>
 
     <meta charset="utf-8" />
-    <title>Reward Khe</title>
+    <title> Log in</title>
     <link rel="stylesheet" href="CSS/style.css">
     <script src="script.js"> </script>
    
@@ -18,31 +18,40 @@
 
 <body>
 
-<!-- <h1> Reward Khe </h1> -->
     <form name= "mainloginform" class="loginformm" action="login.php" method="POST" >
     
         <div class="form-group" >
-            <input name="logintext" class="form-field" type="text"  placeholder="Enter Password" required>
+            <select name="selected">
+            <option value="0" disabled selected hidden>Please Choose</option>
+            <option value="1">Right Password</option>
+            <option value="2">Wrong Password</option>
+        
+            </select>
             <button>Submit</button>
+            <!-- submits the form which are processed in login.php file -->
         </div>
 
      </form>
 
-    
+
+<?php
+
+
+
+?>
+
+
 
 <?php
 
 if (isset($_GET["error"])) {
      if ($_GET["error"] == "emptyinput") {  
-        echo "❌ Wrong password ❌";
+        echo '<script>alert("wrong password")</script>';
       }
     }
    ?>
 
+<footer> </footer>
 
-
-<!-- <footer>
-    © 2021 rewardkhe. All rights reserved.
-</footer> -->
 </body>
 </html>
