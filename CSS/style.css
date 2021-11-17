@@ -9,7 +9,7 @@ h1{
 
 body{
 
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Manrope', 'sans-serif', 'helvetica';
   background-color:rgba(204, 221, 240, 0.918);
   text-align: center;
   width: 100vw;

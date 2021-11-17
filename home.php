@@ -24,12 +24,6 @@
 
 <?php include 'buttons.php';?>
 
-<div class="bg_music" >
-<iframe src="https://open.spotify.com/embed/track/5lRT2FSv3uu05qbvOkTEFf?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe></div>
-
-</body>
-
-
 
 <?php include 'footer.php';?>
 
