@@ -1,2 +1,2 @@
 # website
-this repo showcases the website www.rewardkhe.com
+Source of my personal website www.rewardkhe.com
