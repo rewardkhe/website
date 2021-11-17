@@ -21,7 +21,9 @@
 <body>
 <?php include 'navbar.php';?>
 
-
+<div class="notice">
+<h4> 🚧Thanks for visiting. This website is currently under construction.🚧</h4>
+</div>
 <?php include 'buttons.php';?>
 
 

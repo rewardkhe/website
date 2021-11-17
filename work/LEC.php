@@ -13,36 +13,81 @@
     <?php include 'navbarr.php';?>
 
     <div id="calculator"> 
-        <h2> Living Expenditure Calculator</h2>     
-        <form action="lec.php" method="POST"></form>
-        <table>
-            <tr>
-                <th>Expenditure</th>
-                <th>Amount</th>
-                <th>Frequency</th>
-                <th>Total</th>
-            </tr>
-            <tr>
-                <td>Rent</td>
-                <td><input type="number" id="total" name="Total"
-                placeholder="$200"></td>
-                <td>  <select id="Frequency">
-                    <option value="weekly">Weekly</option>
-                    <option value="fortnightly">Fortnightly</option>
-                    <option value="monthly">Monthly</option>
-                    <option value="annually">Annually</option>
-                  </select></td>
-                <td><input type="text" id="total" name="Total"
-                placeholder="$10,400"> </td>
-            </tr>
-            <tr>
-                <td> <button class="calulate">Calculate</button></td>
-            </tr>
-           
-            <tr>
-                <td> <button class="addmore">Add more</button></td>
-            </tr>
-        </table>
+        <h2> Living Expenses Calculator</h2>     
+       <div id= calculator-box>  
+           <form action="lec.php" method="POST"></form>
+             <table>
+                <tr>
+                    <th>Expenditure</th>
+                    <th>Amount</th>
+                    <th>Frequency</th>
+                    <th>Total</th>
+                    <th>Total Frequency</th>
+
+                </tr>
+                <tr>
+                    <td>Rent</td>
+                    <td><input type="number" id="total" name="Total"
+                    placeholder="$200"></td>
+                    <td>  <select id="Frequency">
+                        <option value="weekly">Weekly</option>
+                        <option value="fortnightly">Fortnightly</option>
+                        <option value="monthly">Monthly</option>
+                        <option value="annually">Annually</option>
+                    </select></td>
+                    <td><input type="text" id="total" name="Total"
+                    placeholder="$10,400"> </td>
+                    <td>  <select id="Frequency">
+                        <option value="weekly">Monthly</option>
+                        <option value="fortnightly">Quarterly</option>
+                        <option value="monthly">Biannually</option>
+                        <option value="annually">Annually</option>
+                    </select></td>
+                </tr>
+
+                <tr>
+                    <td>Transportation</td>
+                    <td><input type="number" id="total" name="Total"
+                    placeholder="$80"></td>
+                    <td>  <select id="Frequency">
+                        <option value="weekly">Weekly</option>
+                        <option value="fortnightly">Fortnightly</option>
+                        <option value="monthly">Monthly</option>
+                        <option value="annually">Annually</option>
+                    </select></td>
+                    <td><input type="text" id="total" name="Total"
+                    placeholder="$4,160"> </td>
+                    <td>  <select id="Frequency">
+                        <option value="weekly">Monthly</option>
+                        <option value="fortnightly">Quarterly</option>
+                        <option value="monthly">Biannually</option>
+                        <option value="annually">Annually</option>
+                    </select></td>
+                </tr>
+                
+              
+
+                <tr>
+                    <td> <button class="addmore">More overhead </button></td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                </tr>
+
+                <tr>
+                <td> <button class="calulate">Calculate Total</button></td>
+                    <td> <input type=""> </td>
+                    <td> </td>
+                    <td> <input type=""> </td>
+                    <td> </td>
+                </tr>
+        
+            
+                
+                 </table>
+        </div>
+
     </div>
 
     <?php include 'buttonss.php';?>

@@ -22,17 +22,18 @@
 
     <!-- work post starts from here -->
 
-
+<div class="content">
 
     <!-- ++++++++++++ Living expenses calculator +++++++++ -->
+
     <div class="workpost">
 
-        <div style="flex-basis:25%">
+        <div style="flex-basis:35%">
 
-            <h3> <a href="work/LEC.php"> Living Expenses Calculator</h3> </a>
+            <h3> <a href="work/LEC.php"> Living Expenses Calculator </a> </h3>
             <p> Living expenses calculator is designed to caluclate one's expenses keeping the
                 idea of customisation in mind.
-                <br>
+                <br> <br>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis tempora nam eaque esse delectus ab
                 eum exercitationem ut consequatur. Veritatis quia accusamus porro possimus quidem eligendi incidunt ipsa
                 labore minima.
@@ -44,12 +45,12 @@
 
         </div>
 
-        <div id="post" style="flex-basis:70%">
+        <div id="post" style="flex-basis:60%">
 
             <a href="work/LEC.php">
-                <center> 
-                    <img src="Assets/calculator.png" alt="calculator" width="auto" height="333"> 
-                </center>
+               
+                    <img src="Assets/calculator.jpg" alt="calculator" width="auto" height="333"> 
+               
             </a>
 
         </div>
@@ -58,14 +59,45 @@
 
     </div>
 
+    <div class="workpost">
+
+                    <!-- sudoku post -->
+
+                    <div style="flex-basis:35%">
+
+                    <h3> <a href="work/sudoku.php"> Live Sudoku solver </a> </h3>
+                    <p> Live sudoku solver helps you finish your remaining grids in fraction of a second. 
+                        
+                        <br> <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis tempora nam eaque esse delectus ab
+                        eum exercitationem ut consequatur. Veritatis quia accusamus porro possimus quidem eligendi incidunt ipsa
+                        labore minima.
+                        <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis tempora nam eaque esse delectus ab
+                        eum exercitationem ut consequatur. Veritatis quia accusamus porro possimus quidem eligendi incidunt ipsa
+                        labore minima.
+                    </p>
+
+                </div>
+
+                <div id="post" style="flex-basis:60%">
+
+                    <a href="work/sudoku.php">
+                    
+                            <img src="Assets/sudoku.jpg" alt="calculator" width="auto" height="333"> 
+                    
+                    </a>
+
+                </div>
+                   
+
+
+</div>
+
     <?php include 'buttons.php';?>
 
 </body>
 
-<footer>
-    <div id="footer" class="footer">
-        Copyright © 2020 rewardx. All rights reserved.
-    </div>
-</footer>
+<?php include 'footer.php';?>
 
 </html>

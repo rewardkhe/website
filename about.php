@@ -17,7 +17,9 @@
     </head>
     <body>
     <?php include 'navbar.php';?>
-
+    <div class="notice">
+    <h5> We don't know much about them, but we're sure Reward is a great guy 😂 </h5>
+    </div>
     <?php include 'buttons.php';?>
 
     </body>
