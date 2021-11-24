@@ -12,7 +12,6 @@ function playclick() {
 }
 
 
-
             
 var beepOne = $("#beep")[0];
 $("#navbar")
