@@ -93,11 +93,7 @@
 
 
 </div>
-
-    <?php include 'buttons.php';?>
-
 </body>
-
 <?php include 'footer.php';?>
 
 </html>

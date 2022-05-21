@@ -1,57 +1,23 @@
 ﻿<?php
   include_once ('header.php');
 ?>
-
-
 <!DOCTYPE html>
-
-<html lang="en">
+<html>
 
 <head>
-
-    <meta charset="utf-8" />
-    <title> Log in</title>
-    <link rel="stylesheet" href="CSS/style.css">
-    <script src="script.js"> </script>
-   
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Reward Khe </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1 ">
+    <link rel="stylesheet" href="CSS/style1.css">
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
 </head>
 
 <body>
-
-    <form name= "mainloginform" class="loginformm" action="login.php" method="POST" >
-    
-        <div class="form-group" >
-            <select name="selected">
-            <option value="0" disabled selected hidden>Please Choose</option>
-            <option value="1">Right Password</option>
-            <option value="2">Wrong Password</option>
-        
-            </select>
-            <button>Submit</button>
-            <!-- submits the form which are processed in login.php file -->
-        </div>
-
-     </form>
-
-
-<?php
-
-
-
-?>
-
-
-
-<?php
-
-if (isset($_GET["error"])) {
-     if ($_GET["error"] == "emptyinput") {  
-        echo '<script>alert("wrong password")</script>';
-      }
-    }
-   ?>
-
-<footer> </footer>
+<?php include 'navbar.php';?>
 
 </body>
+<?php include 'footer.php';?>
 </html>
