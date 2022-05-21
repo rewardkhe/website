@@ -6,15 +6,14 @@ h1{
   font-family: 'Times New Roman', Times, serif;
   font-size:3vh;
 }
-
-body{
-
-  font-family: 'Manrope', 'sans-serif', 'helvetica';
-  background-color:rgba(204, 221, 240, 0.918);
+body {
+  background-color: rgb(31,31,31);
+  color: white;
+  background-size: 100vh, 100vw;
+  background-repeat: no-repeat;
+  padding: 0px;
   text-align: center;
-  width: 100vw;
-  height: 100vh;
-  margin: 0%;
+  margin: 0px;
 }
 
 

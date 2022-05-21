@@ -10,16 +10,13 @@
         <script src="../script.js"></script>
     </head>
     <body>
-    <?php include 'navbarr.php';?>
-
-    <div class="notice">
-<h6> 🚧Under construction, Please come back later.🚧</h6>
-</div>
 
 
-    <?php include 'buttonss.php';?>
+
+
 
 
 </body>
+<?php include 'navbarr.php';?>
 <?php include '../footer.php';?>
 </html>
