@@ -90,7 +90,6 @@
 
     </div>
 
-    <?php include 'buttonss.php';?>
 
 
 </body>

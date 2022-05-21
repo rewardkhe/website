@@ -54,11 +54,11 @@
             
             <h3>Here are some of the projects I've done in past couple of years during uni throughout the coursework and side projects.</h3> <br>
                 <ul>
-                    <a href="google.com"> <li>Macro Budget analyser</li> 
+                    <a href="https://www.google.com" target="_blank"> <li>Macro Budget analyser</li> 
                     <p> This app can let you view all your expenses in weekly, bi weekly basis</p> </a>
-                    <a href="google.com"> <li>Sudoku Solver</li> 
+                    <a href="https://www.google.com" target="_blank"> <li>Sudoku Solver</li> 
                     <p> Point your smart phone camera to your sudoku grids and it will fill up all the remaining numbers in seconds </p> </a>
-                    <a href="google.com"> <li>Compound Visualiser</li> 
+                    <a href="https://www.google.com" target="_blank"> <li>Compound Visualiser</li> 
                     <p> This app can let you view all your expenses in weekly, bi weekly basis</p> </a>
                 
                 </ul>

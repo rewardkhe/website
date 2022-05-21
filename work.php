@@ -31,9 +31,7 @@
         <div style="flex-basis:35%">
 
             <h3> <a href="work/LEC.php"> Living Expenses Calculator </a> </h3>
-            <p> Living expenses calculator is designed to caluclate one's expenses keeping the
-                idea of customisation in mind.
-                <br> <br>
+            
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis tempora nam eaque esse delectus ab
                 eum exercitationem ut consequatur. Veritatis quia accusamus porro possimus quidem eligendi incidunt ipsa
                 labore minima.
@@ -66,9 +64,7 @@
                     <div style="flex-basis:35%">
 
                     <h3> <a href="work/sudoku.php"> Live Sudoku solver </a> </h3>
-                    <p> Live sudoku solver helps you finish your remaining grids in fraction of a second. 
                         
-                        <br> <br>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis tempora nam eaque esse delectus ab
                         eum exercitationem ut consequatur. Veritatis quia accusamus porro possimus quidem eligendi incidunt ipsa
                         labore minima.
