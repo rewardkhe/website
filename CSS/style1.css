@@ -62,10 +62,7 @@ body {
   
 }
 
-
-
-
- a:link { text-decoration: none; color:white}
+a:link { text-decoration: none; color:white}
  a:visited {text-decoration: none; color: white;}
 .intro a:hover { text-decoration: none; color:rgba(114, 174, 192, 0.527); }
  a:focus { text-decoration: none; color:white; }
@@ -150,7 +147,7 @@ footer {
   width: 100vw;
   line-height: 50px;
   margin: 0px 0px 0px 0px;
-  bottom: 0;
+  /* bottom: 0; */
 }
 
 
