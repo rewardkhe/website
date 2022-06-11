@@ -27,7 +27,7 @@
                 and Minor in 
                 <a href="https://www.newcastle.edu.au/degrees/bachelor-of-computer-science">Computer Science</a> 
             </h3>
-            <p> Here is My <a href=""> Resume</a> and, my <a href="">transcript. </a>  
+            <!-- <p> Here is My <a href=""> Resume</a> and, my <a href="">transcript. </a>   -->
              <h4> <br> Relevant Coursework</h4>
                 <ul>
                     <li>Data Structures</li>
@@ -45,8 +45,6 @@
            <h4>  <br>Achievements </h4>
             <li> Placed on Faculty Commendation List 2020 - Faculty of Engineering and Built Environment </li>
           
-            
-            
         </div>
 
 
@@ -54,18 +52,18 @@
             
             <h3>Here are some of the projects I've done in past couple of years during uni throughout the coursework and side projects.</h3> <br>
                 <ul>
-                    <a href="https://www.google.com" target="_blank"> <li>Macro Budget analyser</li> 
+                    <a href="work.php" target="_blank"> <li>Macro Budget analyser</li> 
                     <p> This app can let you view all your expenses in weekly, fortnightly, quarterly and so on.</p> </a>
-                    <a href="https://www.google.com" target="_blank"> <li>Sudoku Solver</li> 
+                    <a href="work.php" target="_blank"> <li>Sudoku Solver</li> 
                     <p> Point your smartphone camera to your sudoku grids and it will fill up all the remaining numbers in seconds.</p> </a>
-                    <a href="https://www.google.com" target="_blank"> <li>Compound Visualiser</li> 
+                    <a href="work.php" target="_blank"> <li>Compound Visualiser</li> 
                     <p> Experience the power of compounding with inflation rates and other admin fees.</p> </a>
                 
                 </ul>
         
         </div>
 
-
+        
         <!-- <div class="sec_caro" >
 
         <h3>Technologies I've used </h3>

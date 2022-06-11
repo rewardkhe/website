@@ -64,7 +64,7 @@ body {
 
 a:link { text-decoration: none; color:white}
  a:visited {text-decoration: none; color: white;}
-.intro a:hover { text-decoration: none; color:rgba(114, 174, 192, 0.527); }
+.intro a:hover { text-decoration: none; color:rgba(114, 174, 192, 0.962); }
  a:focus { text-decoration: none; color:white; }
  a:active { text-decoration: none; color:white; }
 
@@ -96,6 +96,7 @@ a:link { text-decoration: none; color:white}
 
 .secintro ul{
   columns: 3;
+  /* column-width: 4rem; */
   -webkit-columns: 2;
   -moz-columns: 2;
 }
@@ -142,13 +143,15 @@ a:link { text-decoration: none; color:white}
 footer {
   background-color: rgb(182, 182, 182);
   background-color: rgba(168, 168, 168, 0.493);
+  display: inline-block;
   position: fixed;
   text-align: center;
   width: 100vw;
   line-height: 50px;
   margin: 0px 0px 0px 0px;
-  /* bottom: 0; */
+  bottom: 0;
 }
+
 
 
 /* work post starts from here */

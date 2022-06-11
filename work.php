@@ -30,7 +30,7 @@
 
         <div style="flex-basis:35%">
 
-            <h3> <a href="work/LEC.php"> Living Expenses Calculator </a> </h3>
+            <h3> <a href="work/LEC.php"> Macro Budget Analyser </a> </h3>
             
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis tempora nam eaque esse delectus ab
                 eum exercitationem ut consequatur. Veritatis quia accusamus porro possimus quidem eligendi incidunt ipsa
@@ -89,6 +89,38 @@
 
 
 </div>
+
+<div class="workpost">
+
+        <div style="flex-basis:35%">
+
+            <h3> <a href="work/LEC.php"> Compound Visualiser </a> </h3>
+            
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis tempora nam eaque esse delectus ab
+                eum exercitationem ut consequatur. Veritatis quia accusamus porro possimus quidem eligendi incidunt ipsa
+                labore minima.
+                <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis tempora nam eaque esse delectus ab
+                eum exercitationem ut consequatur. Veritatis quia accusamus porro possimus quidem eligendi incidunt ipsa
+                labore minima.
+            </p>
+
+        </div>
+
+        <div id="post" style="flex-basis:60%">
+
+            <a href="work/LEC.php">
+               
+                    <img src="Assets/compound1.png" alt="compound" width="auto" height="333"> 
+               
+            </a>
+
+        </div>
+        <br> <br>
+
+
+    </div>
+
 </body>
 <?php include 'footer.php';?>
 
