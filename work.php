@@ -116,6 +116,8 @@
             </a>
 
         </div>
+
+       <a href = "/rps/index.html"> <h3> Rock Paper Scissor - JS Game </h3> </a>
         <br> <br>
 
 
