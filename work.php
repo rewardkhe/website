@@ -117,13 +117,22 @@
 
         </div>
 
-       <a href = "work/rps/index.html"> <h3> Rock Paper Scissor - JS Game </h3> </a>
+       
+
+</div>
+
+<div class="workpost"> 
+        <a href = "work/rps/index.html"> <h3> Rock Paper Scissor - JS Game </h3> </a>
         <br> <br>
+</div>
 
 
-    </div>
+<div class="workpost"> 
+        <a href = "work/ttt/index.html"> <h3> Tic Tac Toe - JS Game </h3> </a>
+        <br> <br>
+</div>
 
 </body>
-<?php include 'footer.php';?>
+<!-- <?php include 'footer.php';?> -->
 
 </html>
