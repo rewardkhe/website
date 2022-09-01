@@ -132,6 +132,18 @@
         <br> <br>
 </div>
 
+<div class="workpost"> 
+        <a href = "work/counter/index.html"> <h3> Counter App</h3> </a>
+        <br> <br>
+</div>
+
+<div class="workpost"> 
+        <a href = "work/counter1/index.html"> <h3> React Counter App</h3> </a>
+        <br> <br>
+</div>
+
+<br>
+
 </body>
 <!-- <?php include 'footer.php';?> -->
 
