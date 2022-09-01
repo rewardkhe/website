@@ -20,7 +20,7 @@
 <main>
     <div class="intro">
         <div class="secintro" >
-            <h3> Hi, I'm a recent grad of  
+            <h3> Hi, I'm a recent grad of 
                 <a href="https://www.newcastle.edu.au/study/undergraduate?utm_campaign=eni-uon-undergrad-intake-cm-ugd&gclid=EAIaIQobChMIndfk97Tw9wIVyxErCh02wgR1EAAYAiAAEgKi4PD_BwE&gclsrc=aw.ds">The University of Newcastle</a> 
                 graduating with 
                 <a href="https://www.newcastle.edu.au/degrees/bachelor-of-information-technology"> Bachelor of Information technology</a>
