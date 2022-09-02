@@ -138,7 +138,7 @@
 </div>
 
 <div class="workpost"> 
-        <a href = "work/counter1/public/index.html"> <h3> React Counter App</h3> </a>
+        <a href = "work/counter1/build/index.html"> <h3> React Counter App</h3> </a>
         <br> <br>
 </div>
 
