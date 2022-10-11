@@ -1,0 +1,20 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "Source code of my personal website www.rewardkhe.com\r It includes all my mini, revamped and hobby projects.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rewardkhe/website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rewardkhe/website/issues"
+  },
+  "homepage": "https://github.com/rewardkhe/website#readme"
+}
