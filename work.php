@@ -138,7 +138,7 @@
 </div>
 
 <div class="workpost"> 
-        <a href = "http://localhost:3000/work/counter1"> <h3> React Counter App</h3> </a>
+        <a href = "https://jolly-naiad-069e90.netlify.app/"> <h3> React Counter App</h3> </a>
         <br> <br>
 </div>
 
