@@ -52,7 +52,7 @@
             
             <h3>Here are some of the projects I've done in past couple of years during uni throughout the coursework and side projects.</h3> <br>
                 <ul>
-                    <a href="work.php" target="_blank"> <li>Macro Budget analyser</li> 
+                    <a href="work/lec.php" target="_blank"> <li>Macro Budget analyser</li> 
                     <p> This app can let you view all your expenses in weekly, fortnightly, quarterly and so on.</p> </a>
                     <a href="work.php" target="_blank"> <li>Sudoku Solver</li> 
                     <p> Point your smartphone camera to your sudoku grids and it will fill up all the remaining numbers in seconds.</p> </a>
@@ -63,12 +63,6 @@
         
         </div>
 
-        
-        <!-- <div class="sec_caro" >
-
-        <h3>Technologies I've used </h3>
-        <br> <p>  </p>
-        </div> -->
     </div>
     <div class="contact">
         

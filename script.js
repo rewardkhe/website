@@ -1,20 +1,12 @@
-{/* <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>  */}
+var rent = document.querySelector('#rent');
+var trans = document.querySelector('#trans');
 
-
-function nightmode() {
-    var element = document.body;
-    element.classList.toggle("work-mode");
+var tm = document.querySelector('#totaloutput');
+function calcj()
+{
+   
+    tm.value = +rent.value + +trans.value;
+    // tm.value = parseInt(rent.value) + parseInt(trans.value);
+    // console.log (parseInt("234.34"), "console log message");
 }
 
-function playclick() {
-    var music = new Audio('Assets/sounds/click.wav');
-    music.play();
-}
-
-
-            
-var beepOne = $("#beep")[0];
-$("#navbar")
-.mouseover(function() {
-beepOne.play();
-});

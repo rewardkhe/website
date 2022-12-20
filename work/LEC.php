@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="../CSS/style1.css">
         <link rel="icon" type="image/png" href="../Assets/favicon/lec.png"/>   
 
-        <script src="../script.js"></script>
+        
     </head>
     <body>
     <?php include 'navbarr.php';?>
@@ -27,16 +27,17 @@
                 </tr>
                 <tr>
                     <td>Rent</td>
-                    <td><input type="number" id="total" name="Total"
-                    placeholder="$200"></td>
+                    <!-- working -->
+
+                    <td><input type="number" id="rent" name="Total" placeholder="$200"></td>
                     <td>  <select id="Frequency">
                         <option value="weekly">Weekly</option>
                         <option value="fortnightly">Fortnightly</option>
                         <option value="monthly">Monthly</option>
                         <option value="annually">Annually</option>
                     </select></td>
-                    <td><input type="text" id="total" name="Total"
-                    placeholder="$10,400"> </td>
+
+                    <td><input type="text" id="total" name="Total" placeholder="$10,400"> </td>
                     <td>  <select id="Frequency">
                         <option value="weekly">Monthly</option>
                         <option value="fortnightly">Quarterly</option>
@@ -47,16 +48,16 @@
 
                 <tr>
                     <td>Transportation</td>
-                    <td><input type="number" id="total" name="Total"
-                    placeholder="$80"></td>
+                    <!-- working -->
+                    
+                    <td><input type="text" id="trans" name="Total" placeholder="$80"></td>
                     <td>  <select id="Frequency">
                         <option value="weekly">Weekly</option>
                         <option value="fortnightly">Fortnightly</option>
                         <option value="monthly">Monthly</option>
                         <option value="annually">Annually</option>
                     </select></td>
-                    <td><input type="text" id="total" name="Total"
-                    placeholder="$4,160"> </td>
+                    <td><input type="text" id="total" name="Total" placeholder="$4,160"> </td>
                     <td>  <select id="Frequency">
                         <option value="weekly">Monthly</option>
                         <option value="fortnightly">Quarterly</option>
@@ -76,8 +77,10 @@
                 </tr>
 
                 <tr>
-                <td> <button class="calulate">Calculate Total</button></td>
-                    <td> <input type=""> </td>
+                    <!-- working -->
+                    
+                <td> <button id="calulate" onclick="calcj()" >Calculate Total</button></td>
+                    <td> <input id="totaloutput" type=""> </td>
                     <td> </td>
                     <td> <input type=""> </td>
                     <td> </td>
@@ -90,8 +93,10 @@
 
     </div>
 
+<script src="../script.js"></script>
 
 
 </body>
+
 <!-- <?php include '../footer.php';?> -->
 </html>
