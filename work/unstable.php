@@ -1,45 +1,15 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Latest unstable work</title>
-        <link rel="stylesheet" href="../CSS/style1.css">
-        <script src="script10.js"></script>
-
-        
-    </head>
-    <body>
-
-    </body>
-    </html> -->
-
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Loan Calculator</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css"
-    />
-    <!-- <script src="script10.js"></script> -->
-    <!-- <script
-      defer
-      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
-    ></script> -->
+
   </head>
   <body>
     <section class="section">
       <div class="container">
-        <div class="content">
-          <h1>Simple Loan Calculator</h1>
-          <p>
-            The Simple Loan Calculator will determine your estimated payments
-            for loan amounts, interest rates and terms.
-          </p>
-        </div>
+
 
         <div class="columns">
           <div class="column is-three-quarters">
@@ -47,15 +17,12 @@
               <div class="card-content">
                 <form id="loan-form">
                   <div class="level">
-                    <!-- Left side -->
                     <div class="level-left is-marginless">
                       <div class="level-item">
-                        <p class="number">1</p>
                         Loan Amount
                       </div>
                     </div>
 
-                    <!-- Right side -->
                     <div class="level-right">
                       <div class="level-item">
                         <div class="field">
@@ -69,17 +36,14 @@
                       </div>
                     </div>
                   </div>
-
+<BR>
                   <div class="level">
-                    <!-- Left side -->
                     <div class="level-left is-marginless">
                       <div class="level-item">
-                        <p class="number">2</p>
                         Interest Rate
                       </div>
                     </div>
 
-                    <!-- Right side -->
                     <div class="level-right">
                       <div class="level-item">
                         <div class="field">
@@ -94,16 +58,14 @@
                       </div>
                     </div>
                   </div>
+                  <BR>
                   <div class="level">
-                    <!-- Left side -->
                     <div class="level-left is-marginless">
                       <div class="level-item">
-                        <p class="number">3</p>
                         Number Of Years
                       </div>
                     </div>
 
-                    <!-- Right side -->
                     <div class="level-right">
                       <div class="level-item">
                         <div class="field">
@@ -122,6 +84,7 @@
                     <button
                       class="button is-large is-fullwidth is-primary is-outlined"
                     >
+                    
                       Calculate
                     </button>
                   </div>
@@ -133,39 +96,31 @@
         </div>
       </div>
     </section>
-
+<BR><hr>
     <!-- RESULTS -->
-    <section class="section"> 
-      <h1 class="title ">Calculated Results</h1>
-<div class="columns is-multiline">
-  
-  <div class="column is-12-tablet is-6-desktop is-3-widescreen">
+   <div class="column is-12-tablet is-6-desktop is-3-widescreen">
     <div class="notification is-primary has-text">
       <p id="monthlyPayment" class="title is-1">$</p>
-      <p class="subtitle is-4">Monthly Payments</p>
+      <p class="subtitle is-4">Monthly Payments</p><hr>
     </div>
   </div>
 
     <div class="column is-12-tablet is-6-desktop is-3-widescreen">
         <div class="notification is-info has-text">
           <p id="totalInterest" class="title is-1">-</p>
-          <p class="subtitle is-4">Total Interest</p>
+          <p class="subtitle is-4">Total Interest</p><hr>
         </div>
       </div>
 
       <div class="column is-12-tablet is-6-desktop is-3-widescreen">
         <div class="notification is-link has-text">
           <p id="totalPayment" class="title is-1">$</p>
-          <p class="subtitle is-4">Total Amount</p>
+          <p class="subtitle is-4">Total Amount</p><hr>
         </div>
       </div>
 
 </div>
 </section>
-
-
-
   </body>
-
   <script src="script10.js"></script>
 </html>
