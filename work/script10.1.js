@@ -14,11 +14,11 @@ function action()
     x.innerHTML ="$" +loan + (((+rate / +100) * +loan)* +time);
     
     
-    console.log("-------");
-    console.log("Loan:" + loan);
-    console.log("Interest rate:" +rate);
-    console.log("Time:" +time);
-    console.log(x.value);
+    // console.log("-------");
+    // console.log("Loan:" + loan);
+    // console.log("Interest rate:" +rate);
+    // console.log("Time:" +time);
+    // console.log(x.value);
 
 }
 

@@ -6,8 +6,6 @@
         <title>Living Expenses Calculator</title>
         <link rel="stylesheet" href="../CSS/style1.css">
         <link rel="icon" type="image/png" href="../Assets/favicon/lec.png"/>   
-
-        
     </head>
     <body>
     <?php include 'navbarr.php';?>
@@ -30,40 +28,44 @@
                     <!-- working -->
 
                     <td><input type="number" id="rent" name="Total" placeholder="$200"></td>
-                    <td>  <select id="Frequency">
-                        <option value="weekly">Weekly</option>
-                        <option value="fortnightly">Fortnightly</option>
-                        <option value="monthly">Monthly</option>
-                        <option value="annually">Annually</option>
-                    </select></td>
+                    <td><form> <select id="rfreq">
+                        <option value="7">Weekly</option>
+                        <option value="14">Fortnightly</option>
+                        <option value="30">Monthly</option>
+                        <option value="365">Annually</option>
+                    </select></form>
+                    </td>
 
-                    <td><input type="text" id="total" name="Total" placeholder="$10,400"> </td>
-                    <td>  <select id="Frequency">
-                        <option value="weekly">Monthly</option>
-                        <option value="fortnightly">Quarterly</option>
-                        <option value="monthly">Biannually</option>
-                        <option value="annually">Annually</option>
-                    </select></td>
+                    <td><output type="number" id="rtotal"> </td>
+                    <td><form>  <select id="rfreq1">
+                        <option value="30">Monthly</option>
+                        <option value="90">Quarterly</option>
+                        <option value="182">Biannually</option>
+                        <option value="365">Annually</option>
+                    </select></form>
+                    </td>
                 </tr>
 
                 <tr>
                     <td>Transportation</td>
                     <!-- working -->
                     
-                    <td><input type="text" id="trans" name="Total" placeholder="$80"></td>
-                    <td>  <select id="Frequency">
-                        <option value="weekly">Weekly</option>
-                        <option value="fortnightly">Fortnightly</option>
-                        <option value="monthly">Monthly</option>
-                        <option value="annually">Annually</option>
-                    </select></td>
-                    <td><input type="text" id="total" name="Total" placeholder="$4,160"> </td>
-                    <td>  <select id="Frequency">
-                        <option value="weekly">Monthly</option>
-                        <option value="fortnightly">Quarterly</option>
-                        <option value="monthly">Biannually</option>
-                        <option value="annually">Annually</option>
-                    </select></td>
+                    <td><input type="number" id="trans" name="Total" placeholder="$80"></td>
+                    <td><form>  <select id="tfreq">
+                        <option id="frent" value='7'>Weekly</option>
+                        <option value='14'>Fortnightly</option>
+                        <option value='30'>Monthly</option>
+                        <option value='365'>Annually</option>
+                        </select></form>
+                    </td>
+                    <td><ouput type="number" id="ttotal"> </td>
+                    <td><form>  <select id="tfreq1">
+                        <option value="30">Monthly</option>
+                        <option value="90">Quarterly</option>
+                        <option value="182">Biannually</option>
+                        <option value="365">Annually</option>
+                    </select></form>
+                </td>
                 </tr>
                 
               
@@ -80,9 +82,9 @@
                     <!-- working -->
                     
                 <td> <button id="calulate" onclick="calcj()" >Calculate Total</button></td>
-                    <td> <input id="totaloutput" type=""> </td>
+                    <td><div> <output id="output" type="number"></div> </td>
                     <td> </td>
-                    <td> <input type=""> </td>
+                    <td> <output id= "toutput" type="number"> </td>
                     <td> </td>
                 </tr>
         
