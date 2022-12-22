@@ -143,7 +143,11 @@
 </div>
 
 <div class="workpost"> 
-        <a href = "work/unstable.html"> <h3> Scribble </h3> </a>
+        <a href = "work/unstable.html"> <h3> loan calc </h3> </a>
+        <br> <br>
+</div>
+<div class="workpost"> 
+        <a href = "work/unstable.1.html"> <h3> resp loan calc </h3> </a>
         <br> <br>
 </div>
 
