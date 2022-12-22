@@ -11,15 +11,9 @@ function action()
     var rate = document.getElementById("rate").value;
     var time = document.getElementById("time").value;
     var x = document.getElementById('output');
-    x.innerHTML ="$" +loan + (((+rate / +100) * +loan)* +time);
-    
-    
-    // console.log("-------");
-    // console.log("Loan:" + loan);
-    // console.log("Interest rate:" +rate);
-    // console.log("Time:" +time);
-    // console.log(x.value);
+    x.innerHTML ="$" + (+loan + (((+rate / +100) * +loan)* +time));
 
+    console.log(+loan + (((+rate / +100) * +loan)* +time));
 }
 
 function reset() {
