@@ -20,13 +20,13 @@
 <main>
     <div class="intro">
         <div class="secintro" >
-            <h3> Hi, I'm a recent grad of 
+            <h3> Hi, I'm a new grad from
                 <a href="https://www.newcastle.edu.au/study/undergraduate?utm_campaign=eni-uon-undergrad-intake-cm-ugd&gclid=EAIaIQobChMIndfk97Tw9wIVyxErCh02wgR1EAAYAiAAEgKi4PD_BwE&gclsrc=aw.ds">The University of Newcastle</a> 
-                graduating with 
-                <a href="https://www.newcastle.edu.au/degrees/bachelor-of-information-technology"> Bachelor of Information technology</a>
-                and Minor in 
+                 with 
+                <a href="https://www.newcastle.edu.au/degrees/bachelor-of-information-technology"> Bachelor of Information technology.</a>
+                <!-- and Minor in 
                 <a href="https://www.newcastle.edu.au/degrees/bachelor-of-computer-science">Computer Science</a> 
-            </h3>
+            </h3> -->
             <!-- <p> Here is My <a href=""> Resume</a> and, my <a href="">transcript. </a>   -->
              <h4> <br> Relevant Coursework</h4>
                 <ul>
@@ -41,16 +41,16 @@
                     <li>Project Management</li>
                     <li>Predictive Analytics</li>
                 </ul>
-            
+        <!--             
            <h4>  <br>Achievements </h4>
             <li> Placed on Faculty Commendation List 2020 - Faculty of Engineering and Built Environment </li>
-          
+           -->
         </div>
 
 
         <div class="secproj" >
             
-            <h3>Here are some of the projects I've done in past couple of years during uni throughout the coursework and side projects.</h3> <br>
+            <h3>Here are some of the projects I've done in past couple of years during uni throughout the coursework and some side projects.</h3> <br>
                 <ul>
                     <a href="work/lec.php" target="_blank"> <li>Macro Budget analyser</li> 
                     <p> This app can let you view all your expenses in weekly, fortnightly, quarterly and so on.</p> </a>
@@ -63,7 +63,15 @@
         
         </div>
 
-    </div>
+        <div class = "secapi">
+            <h3> Weather api </h3>
+
+        </div>
+    
+
+
+    </div >
+
     <div class="contact">
         
         <li><a href="https://github.com/rewardkhe"> Github</li></a>

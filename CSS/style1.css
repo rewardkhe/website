@@ -76,7 +76,7 @@ a:link { text-decoration: none; color:white}
   height:100vh;
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   
 }
 
@@ -125,6 +125,14 @@ a:link { text-decoration: none; color:white}
   text-align: center;
 }
 
+.secapi{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  text-align: center;
+  margin: 2em 2em;
+}
 
 .contact{
   list-style-type: none;

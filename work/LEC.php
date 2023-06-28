@@ -25,9 +25,7 @@
                 </tr>
                 <tr>
                     <td>Rent</td>
-                    <!-- working -->
-
-                    <td><input type="number" id="rent" name="Total" placeholder="$200"></td>
+                    <td><input type="number" id="rent" placeholder="$200"></td>
                     <td><form> <select id="rfreq">
                         <option value="7">Weekly</option>
                         <option value="14">Fortnightly</option>
@@ -50,7 +48,7 @@
                     <td>Transportation</td>
                     <!-- working -->
                     
-                    <td><input type="number" id="trans" name="Total" placeholder="$80"></td>
+                    <td><input type="number" id="trans" placeholder="$80"></td>
                     <td><form>  <select id="tfreq">
                         <option id="frent" value='7'>Weekly</option>
                         <option value='14'>Fortnightly</option>
